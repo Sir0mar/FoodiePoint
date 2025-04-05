@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -230,6 +230,47 @@ namespace FoodiePointManagementSystem
         private void txtEmail_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void dgvUser_CellClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btnViewSalesReport_Click(object sender, EventArgs e)
+        {
+            string monthInput = Interaction.InputBox("Enter month (1-12):", "Sales Report", "1");
+            if (!int.TryParse(monthInput, out int month))
+            {
+                MessageBox.Show("Invalid month value.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            string category = Interaction.InputBox("Enter food category (or 'Any' for all):", "Sales Report", "Any");
+            string chef = Interaction.InputBox("Enter chef name (or leave blank for any):", "Sales Report", "");
+
+            // Use the SalesReportManager object to get the report.
+            SalesReportManager reportManager = new SalesReportManager(connectionString);
+            decimal totalSales = reportManager.GetTotalSales(month, category, chef);
+
+            MessageBox.Show($"Total Sales for Month {month}\nCategory: {category}\nChef: {chef}\nTotal Sales: ${totalSales}",
+                            "Sales Report", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnViewFeedback_Click(object sender, EventArgs e)
+        {
+            FeedbackManagerOO feedbackManager = new FeedbackManagerOO(connectionString);
+            DataTable feedbackTable = feedbackManager.GetFeedback();
+            string feedbackStr = "Customer Feedback:\n";
+            foreach (DataRow row in feedbackTable.Rows)
+            {
+                feedbackStr += $"ID: {row["FeedbackID"]} | {row["CustomerName"]}: {row["Message"]}\n";
+            }
+            MessageBox.Show(feedbackStr, "Customer Feedback", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
