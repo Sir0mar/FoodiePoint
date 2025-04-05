@@ -1,0 +1,12 @@
+C:\Users\SirOmar\source\repos\FoodiePointManagementSystem\IOOPAssignment\FoodiePointManagementSystem\bin\Debug\FoodiePointManagementSystem.exe.config
+C:\Users\SirOmar\source\repos\FoodiePointManagementSystem\IOOPAssignment\FoodiePointManagementSystem\bin\Debug\FoodiePointManagementSystem.exe
+C:\Users\SirOmar\source\repos\FoodiePointManagementSystem\IOOPAssignment\FoodiePointManagementSystem\bin\Debug\FoodiePointManagementSystem.pdb
+C:\Users\SirOmar\source\repos\FoodiePointManagementSystem\IOOPAssignment\FoodiePointManagementSystem\obj\Debug\FoodiePointManagementSystem.csproj.AssemblyReference.cache
+C:\Users\SirOmar\source\repos\FoodiePointManagementSystem\IOOPAssignment\FoodiePointManagementSystem\obj\Debug\FoodiePointManagementSystem.AdminForm.resources
+C:\Users\SirOmar\source\repos\FoodiePointManagementSystem\IOOPAssignment\FoodiePointManagementSystem\obj\Debug\FoodiePointManagementSystem.ChefForm.resources
+C:\Users\SirOmar\source\repos\FoodiePointManagementSystem\IOOPAssignment\FoodiePointManagementSystem\obj\Debug\FoodiePointManagementSystem.Form1.resources
+C:\Users\SirOmar\source\repos\FoodiePointManagementSystem\IOOPAssignment\FoodiePointManagementSystem\obj\Debug\FoodiePointManagementSystem.Properties.Resources.resources
+C:\Users\SirOmar\source\repos\FoodiePointManagementSystem\IOOPAssignment\FoodiePointManagementSystem\obj\Debug\FoodiePointManagementSystem.csproj.GenerateResource.cache
+C:\Users\SirOmar\source\repos\FoodiePointManagementSystem\IOOPAssignment\FoodiePointManagementSystem\obj\Debug\FoodiePointManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\SirOmar\source\repos\FoodiePointManagementSystem\IOOPAssignment\FoodiePointManagementSystem\obj\Debug\FoodiePointManagementSystem.exe
+C:\Users\SirOmar\source\repos\FoodiePointManagementSystem\IOOPAssignment\FoodiePointManagementSystem\obj\Debug\FoodiePointManagementSystem.pdb
